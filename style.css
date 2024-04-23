@@ -341,7 +341,6 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
-
 article {
   display: flex;
   width: 10rem;
@@ -365,9 +364,10 @@ article .icon {
 }
 
 .project-img {
+  object-fit:cover;
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width:350px;
+  height:350px;
 }
 
 .project-title {
